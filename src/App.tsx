@@ -1,14 +1,15 @@
 
-import { RouterProvider } from 'react-router-dom'
 import './App.css'
-// import Navbar from './Components/Navbar'
-import Route from './Routes/Route'
+import StopWatch from './Pages/Stopwatch'
+import ToDoList from './Pages/ToDolist'
+
 
 function App() {
 
   return (
     <>
-    <RouterProvider router={Route}/>
+    <ToDoList/>
+    <StopWatch/>
     </>
   )
 }
